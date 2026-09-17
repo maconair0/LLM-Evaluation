@@ -1,0 +1,714 @@
+[
+    {
+        "id": 1,
+        "category": "Physical Layer",
+        "question": "A span has 0.22 dB/km attenuation over 80 km. What is the approximate span loss?",
+        "options": {"A": "11 dB", "B": "17.6 dB", "C": "22 dB", "D": "35 dB"},
+        "answer": "B",
+        "competency": "Fiber loss calculation"
+    },
+    {
+        "id": 2,
+        "category": "Physical Layer",
+        "question": "A 32‑GBd signal with 0.1 nm filter spacing experiences penalty. What is the root cause?",
+        "options": {"A": "PMD", "B": "Chromatic dispersion", "C": "Filter narrowing", "D": "Laser RIN"},
+        "answer": "C",
+        "competency": "Spectral filtering effects"
+    },
+    {
+        "id": 3,
+        "category": "Physical Layer",
+        "question": "If Raman amplification gain is 6 dB and span loss is 20 dB, what is the effective loss?",
+        "options": {"A": "14 dB", "B": "20 dB", "C": "26 dB", "D": "6 dB"},
+        "answer": "A",
+        "competency": "Raman amplification"
+    },
+    {
+        "id": 4,
+        "category": "Physical Layer",
+        "question": "Which impairment increases with channel count in a DWDM system?",
+        "options": {"A": "SPM", "B": "XPM", "C": "Laser linewidth", "D": "PMD"},
+        "answer": "B",
+        "competency": "Nonlinear effects"
+    },
+    {
+        "id": 5,
+        "category": "Physical Layer",
+        "question": "A fiber has D = 17 ps/nm/km. What is the accumulated CD over 100 km?",
+        "options": {"A": "170 ps/nm", "B": "1700 ps/nm", "C": "17,000 ps/nm", "D": "1.7 ps/nm"},
+        "answer": "B",
+        "competency": "Chromatic dispersion"
+    },
+    {
+        "id": 6,
+        "category": "Physical Layer",
+        "question": "Which phenomenon causes power transfer from shorter to longer wavelengths?",
+        "options": {"A": "SPM", "B": "SRS", "C": "PMD", "D": "None"},
+        "answer": "B",
+        "competency": "Stimulated Raman scattering"
+    },
+    {
+        "id": 7,
+        "category": "Physical Layer",
+        "question": "Which parameter determines nonlinear threshold in GN‑model analysis?",
+        "options": {"A": "PMD coefficient", "B": "Launch power", "C": "Laser linewidth", "D": "FEC overhead"},
+        "answer": "B",
+        "competency": "GN model"
+    },
+    {
+        "id": 8,
+        "category": "DSP",
+        "question": "Which DSP block mitigates polarization mode dispersion?",
+        "options": {"A": "CMA equalizer", "B": "Phase recovery", "C": "Polarization demux", "D": "Timing recovery"},
+        "answer": "C",
+        "competency": "Adaptive equalization"
+    },
+    {
+        "id": 9,
+        "category": "DSP",
+        "question": "A 64‑QAM system requires approximately how much more OSNR than 16‑QAM for the same BER?",
+        "options": {"A": "1 dB", "B": "2 dB", "C": "4.5 dB", "D": "10 dB"},
+        "answer": "C",
+        "competency": "Modulation format SNR requirements"
+    },
+    {
+        "id": 10,
+        "category": "DSP",
+        "question": "Which equalizer is typically used for CD compensation in coherent systems?",
+        "options": {"A": "FIR time‑domain", "B": "MLSE", "C": "Frequency‑domain filter", "D": "Decision‑feedback equalizer"},
+        "answer": "A",
+        "competency": "Chromatic dispersion compensation"
+    },
+    {
+        "id": 11,
+        "category": "DSP",
+        "question": "Cycle slips occur when:",
+        "options": {"A": "Laser linewidth is too narrow", "B": "Phase recovery fails", "C": "PMD exceeds threshold", "D": "ADC saturates"},
+        "answer": "B",
+        "competency": "Carrier phase recovery"
+    },
+    {
+        "id": 12,
+        "category": "DSP",
+        "question": "What is the relationship between EVM and SNR (linear)?",
+        "options": {"A": "EVM = 1/SNR", "B": "EVM = sqrt(1/SNR)", "C": "EVM = SNR", "D": "EVM = SNR^2"},
+        "answer": "B",
+        "competency": "Signal quality metrics"
+    },
+    {
+        "id": 13,
+        "category": "DSP",
+        "question": "A 32‑GBd signal sampled at 64 GSa/s has how many samples per symbol?",
+        "options": {"A": "1", "B": "2", "C": "4", "D": "8"},
+        "answer": "B",
+        "competency": "Sampling theory"
+    },
+    {
+        "id": 14,
+        "category": "DSP",
+        "question": "Which DSP block mitigates ISI caused by filtering?",
+        "options": {"A": "Timing recovery", "B": "Adaptive equalizer", "C": "Phase estimator", "D": "Carrier recovery"},
+        "answer": "B",
+        "competency": "Equalization"
+    },
+    {
+        "id": 15,
+        "category": "DSP",
+        "question": "What is the primary purpose of pilot symbols in coherent DSP?",
+        "options": {"A": "Laser stabilization", "B": "Phase noise estimation", "C": "PMD compensation", "D": "ADC calibration"},
+        "answer": "B",
+        "competency": "Pilot-aided processing"
+    },
+    {
+        "id": 16,
+        "category": "DSP",
+        "question": "Which impairment causes constellation rotation?",
+        "options": {"A": "PMD", "B": "Laser phase noise", "C": "CD", "D": "RIN"},
+        "answer": "B",
+        "competency": "Phase impairments"
+    },
+    {
+        "id": 17,
+        "category": "DSP",
+        "question": "A BER = 1e‑3 before FEC and 1e‑15 after FEC typically indicates:",
+        "options": {"A": "Hard‑decision FEC", "B": "Soft‑decision FEC", "C": "No FEC gain", "D": "Laser instability"},
+        "answer": "B",
+        "competency": "FEC performance"
+    },
+    {
+        "id": 18,
+        "category": "Hardware",
+        "question": "An EDFA shows gain ripple across the C-band. What is the most likely cause?",
+        "options": {"A": "Pump RIN", "B": "ASE saturation", "C": "Filter misalignment", "D": "Gain flattening filter drift"},
+        "answer": "D",
+        "competency": "EDFA characteristics"
+    },
+    {
+        "id": 19,
+        "category": "Hardware",
+        "question": "A coherent receiver reports increased phase noise but stable OSNR. Hardware component?",
+        "options": {"A": "Local oscillator laser", "B": "ADC", "C": "VOA", "D": "EDFA pump"},
+        "answer": "A",
+        "competency": "Coherent receiver troubleshooting"
+    },
+    {
+        "id": 20,
+        "category": "Hardware",
+        "question": "1427 nm Raman pump @ 12 dBm. After 20 km (0.25 dB/km loss), remaining power?",
+        "options": {"A": "Equal to 7 dBm", "B": "12 dBm", "C": "less than 7 dBm", "D": "between 7 and 12 dBm"},
+        "answer": "C",
+        "competency": "Raman pump attenuation"
+    },
+    {
+        "id": 21,
+        "category": "Hardware",
+        "question": "A laser with 100 kHz linewidth is replaced with a 1 MHz laser. What increases?",
+        "options": {"A": "PMD", "B": "Phase noise", "C": "Chromatic dispersion", "D": "RIN"},
+        "answer": "B",
+        "competency": "Laser linewidth effects"
+    },
+    {
+        "id": 22,
+        "category": "Hardware",
+        "question": "Booster EDFA saturates at +17 dBm. If input increases 3 dB while in saturation, output?",
+        "options": {"A": "+3 dB", "B": "+1 dB", "C": "Remains approximately constant", "D": "-3 dB"},
+        "answer": "C",
+        "competency": "EDFA saturation behavior"
+    },
+    {
+        "id": 23,
+        "category": "Hardware",
+        "question": "A VOA is set to 10 dB attenuation. Input is +5 dBm. What is the output?",
+        "options": {"A": "-5 dBm", "B": "+5 dBm", "C": "-10 dBm", "D": "-15 dBm"},
+        "answer": "A",
+        "competency": "VOA operation"
+    },
+    {
+        "id": 24,
+        "category": "Hardware",
+        "question": "A photodiode shows reduced responsivity. What is the most likely cause?",
+        "options": {"A": "Thermal noise", "B": "Aging of semiconductor material", "C": "PMD", "D": "Chromatic dispersion"},
+        "answer": "B",
+        "competency": "Photodiode degradation"
+    },
+    {
+        "id": 25,
+        "category": "Hardware",
+        "question": "A 40‑GHz optical filter is used with a 64‑GBd signal. What impairment is introduced?",
+        "options": {"A": "PMD", "B": "Nonlinear noise", "C": "Severe ISI", "D": "RIN"},
+        "answer": "C",
+        "competency": "Filter bandwidth matching"
+    },
+    {
+        "id": 26,
+        "category": "Architecture",
+        "question": "Flex‑Grid ROADM: 75 GHz for 64‑GBd channel. Approximate guard band?",
+        "options": {"A": "1 GHz", "B": "5 GHz", "C": "11 GHz", "D": "20 GHz"},
+        "answer": "C",
+        "competency": "Flex-grid allocation"
+    },
+    {
+        "id": 27,
+        "category": "Architecture",
+        "question": "Feature that allows any wavelength to be routed to any output direction?",
+        "options": {"A": "Colorless and Directionless", "B": "Directionless Contentionless", "C": "Contentionless and Colorless", "D": "Broadcast-and-select"},
+        "answer": "A",
+        "competency": "CDC ROADM features"
+    },
+    {
+        "id": 28,
+        "category": "Architecture",
+        "question": "Architecture that minimizes cumulative filtering penalties in multi‑hop networks?",
+        "options": {"A": "Fixed‑grid", "B": "Broadcast‑select", "C": "Route‑and‑select", "D": "Passive muxing"},
+        "answer": "C",
+        "competency": "ROADM architectures"
+    },
+    {
+        "id": 29,
+        "category": "Architecture",
+        "question": "50‑GHz fixed grid: A 64‑GBd channel cannot be added because:",
+        "options": {"A": "OSNR too high", "B": "Spectral slot too narrow", "C": "PMD too large", "D": "Laser linewidth too small"},
+        "answer": "B",
+        "competency": "Fixed vs flexible grid"
+    },
+    {
+        "id": 30,
+        "category": "Architecture",
+        "question": "Which component determines the passband/bandpass shape in a ROADM?",
+        "options": {"A": "EDFA", "B": "WSS", "C": "VOA", "D": "Photodiode"},
+        "answer": "B",
+        "competency": "WSS functionality"
+    },
+    {
+        "id": 31,
+        "category": "Architecture",
+        "question": "96‑channel DWDM system (50‑GHz channel width). Total occupied bandwidth?",
+        "options": {"A": "2.4 THz", "B": "4.8 THz", "C": "6.0 THz", "D": "9.6 THz"},
+        "answer": "B",
+        "competency": "DWDM bandwidth calculation"
+    },
+    {
+        "id": 32,
+        "category": "Architecture",
+        "question": "Which protection scheme typically provides < 50ms restoration?",
+        "options": {"A": "1+1 Optical Protection", "B": "Shared mesh", "C": "ASON restoration", "D": "SDN reroute"},
+        "answer": "A",
+        "competency": "Protection schemes"
+    },
+    {
+        "id": 33,
+        "category": "Architecture",
+        "question": "ROADM introduces 6 dB loss. For 4 nodes, what is the total induced loss?",
+        "options": {"A": "6 dB", "B": "12 dB", "C": "24 dB", "D": "30 dB"},
+        "answer": "C",
+        "competency": "ROADM loss accumulation"
+    },
+    {
+        "id": 34,
+        "category": "Architecture",
+        "question": "Which impairment increases with the number of ROADM cascades?",
+        "options": {"A": "PMD", "B": "Filter narrowing", "C": "Laser drift", "D": "RIN"},
+        "answer": "B",
+        "competency": "Cascaded filtering effects"
+    },
+    {
+        "id": 35,
+        "category": "Architecture",
+        "question": "400G super‑channel: 4×100G carriers @ 37.5 GHz. Occupied bandwidth?",
+        "options": {"A": "75 GHz", "B": "112.5 GHz", "C": "150 GHz", "D": "200 GHz"},
+        "answer": "C",
+        "competency": "Super-channel bandwidth"
+    },
+    {
+        "id": 36,
+        "category": "SDN/NFV",
+        "question": "Protocol most commonly used for model-driven configuration?",
+        "options": {"A": "SNMP", "B": "NETCONF", "C": "gRPC", "D": "TL1"},
+        "answer": "B",
+        "competency": "SDN protocols"
+    },
+    {
+        "id": 37,
+        "category": "SDN/NFV",
+        "question": "In a hierarchical SDN architecture, which component performs global path computation?",
+        "options": {"A": "Domain controller", "B": "EMS", "C": "PCE", "D": "NBI agent"},
+        "answer": "C",
+        "competency": "SDN architecture"
+    },
+    {
+        "id": 38,
+        "category": "SDN/NFV",
+        "question": "YANG model family primarily used for optical topology representation?",
+        "options": {"A": "OpenConfig", "B": "IETF TE Topology", "C": "OpenROADM", "D": "MEF LSO"},
+        "answer": "B",
+        "competency": "YANG models"
+    },
+    {
+        "id": 39,
+        "category": "SDN/NFV",
+        "question": "A southbound API returns HTTP 409. What does this indicate?",
+        "options": {"A": "Authentication failure", "B": "Resource conflict", "C": "Malformed payload", "D": "Timeout"},
+        "answer": "B",
+        "competency": "REST API error codes"
+    },
+    {
+        "id": 40,
+        "category": "SDN/NFV",
+        "question": "Which transport mechanism does RESTCONF primarily rely on?",
+        "options": {"A": "SSH", "B": "TLS", "C": "UDP", "D": "MQTT"},
+        "answer": "B",
+        "competency": "RESTCONF protocol"
+    },
+    {
+        "id": 41,
+        "category": "SDN/NFV",
+        "question": "Controller function that ensures wavelength continuity across domains?",
+        "options": {"A": "Telemetry collection", "B": "PCE", "C": "EMS mediation", "D": "NBI orchestration"},
+        "answer": "B",
+        "competency": "Multi-domain coordination"
+    },
+    {
+        "id": 42,
+        "category": "SDN/NFV",
+        "question": "JSON RPC response contains 'error.code = -32602'. What does this imply?",
+        "options": {"A": "Invalid params", "B": "Method not found", "C": "Parse error", "D": "Internal error"},
+        "answer": "A",
+        "competency": "JSON-RPC error codes"
+    },
+    {
+        "id": 43,
+        "category": "SDN/NFV",
+        "question": "Interface typically used between an orchestrator and an optical controller?",
+        "options": {"A": "SBI", "B": "NBI", "C": "CLI", "D": "TL1"},
+        "answer": "B",
+        "competency": "SDN interfaces"
+    },
+    {
+        "id": 44,
+        "category": "SDN/NFV",
+        "question": "Which data encoding is the native standard for NETCONF?",
+        "options": {"A": "XML", "B": "JSON", "C": "YAML", "D": "Binary TLV"},
+        "answer": "A",
+        "competency": "NETCONF encoding"
+    },
+    {
+        "id": 45,
+        "category": "SDN/NFV",
+        "question": "Controller receives 'stale topology' alarms. Most likely cause?",
+        "options": {"A": "High latency telemetry", "B": "Incorrect YANG schema", "C": "TLS handshake failure", "D": "Northbound overload"},
+        "answer": "A",
+        "competency": "SDN troubleshooting"
+    },
+    {
+        "id": 46,
+        "category": "Physical Layer",
+        "question": "PMD coef 0.1 ps/√km. What is the DGD over 400 km?",
+        "options": {"A": "2 ps", "B": "4 ps", "C": "6 ps", "D": "10 ps"},
+        "answer": "A",
+        "competency": "PMD calculation"
+    },
+    {
+        "id": 47,
+        "category": "Physical Layer",
+        "question": "32‑GBd (Ts = 31.25 ps). If CD causes 500 ps spread, symbols affected?",
+        "options": {"A": "8", "B": "12", "C": "16", "D": "32"},
+        "answer": "C",
+        "competency": "ISI from chromatic dispersion"
+    },
+    {
+        "id": 48,
+        "category": "Physical Layer",
+        "question": "If OSNR improves by 3 dB, what is the linear improvement factor?",
+        "options": {"A": "1.5×", "B": "2×", "C": "3×", "D": "4×"},
+        "answer": "B",
+        "competency": "dB to linear conversion"
+    },
+    {
+        "id": 49,
+        "category": "Physical Layer",
+        "question": "100‑km span (20 dB loss). Raman amplification of 4 dB, EDFA 17 dB. Net gain/loss?",
+        "options": {"A": "+1 dB", "B": "-1 dB", "C": "+3 dB", "D": "-3 dB"},
+        "answer": "A",
+        "competency": "Link budget calculation"
+    },
+    {
+        "id": 50,
+        "category": "Physical Layer",
+        "question": "50‑GHz filter used with a 45‑GBd signal. Approx frequency margin?",
+        "options": {"A": "5 GHz", "B": "2.5 GHz", "C": "10 GHz", "D": "0 GHz"},
+        "answer": "A",
+        "competency": "Filter margin calculation"
+    },
+    {
+        "id": 51,
+        "category": "Physical Layer",
+        "question": "γ = 1.3 (W·km)⁻¹ and P = 2.5 mW. Nonlinear phase shift over 100 km (for no loss case)?",
+        "options": {"A": "0.125 rad", "B": "0.325 rad", "C": "0.5 rad", "D": "1.0 rad"},
+        "answer": "B",
+        "competency": "Nonlinear phase shift"
+    },
+    {
+        "id": 52,
+        "category": "Physical Layer",
+        "question": "If ASE noise power increases by 3 dB, what happens to the OSNR (dB)?",
+        "options": {"A": "Improves by 3 dB", "B": "Degrades by 3 dB", "C": "No change", "D": "Degrades by 6 dB"},
+        "answer": "B",
+        "competency": "OSNR relationship"
+    },
+    {
+        "id": 53,
+        "category": "Physical Layer",
+        "question": "Power after 75 km (0.2 dB/km loss) if input is 0 dBm?",
+        "options": {"A": "-5 dBm", "B": "-10 dBm", "C": "-15 dBm", "D": "-20 dBm"},
+        "answer": "C",
+        "competency": "Power attenuation"
+    },
+    {
+        "id": 54,
+        "category": "Physical Layer",
+        "question": "400G 64‑QAM needs 21 dB OSNR. Measured OSNR is 18 dB. Margin?",
+        "options": {"A": "1 dB", "B": "2 dB", "C": "-3 dB", "D": "+3 dB"},
+        "answer": "C",
+        "competency": "OSNR margin calculation"
+    },
+    {
+        "id": 55,
+        "category": "Physical Layer",
+        "question": "If optical power in a fiber is doubled, the nonlinear coefficient gamma (γ):",
+        "options": {"A": "Doubles", "B": "Remains unchanged", "C": "Halves", "D": "Increases by 3 dB"},
+        "answer": "B",
+        "competency": "Nonlinear coefficient properties"
+    },
+    {
+        "id": 56,
+        "category": "DSP",
+        "question": "200 kHz carrier recovery BW. Laser linewidth is 1 MHz. Dominant impairment?",
+        "options": {"A": "PMD", "B": "Phase noise", "C": "CD", "D": "ADC noise"},
+        "answer": "B",
+        "competency": "Carrier recovery limitations"
+    },
+    {
+        "id": 57,
+        "category": "DSP",
+        "question": "Drawback of blind CMA equalizer for high‑order QAM constellations?",
+        "options": {"A": "Slow convergence", "B": "Phase ambiguity", "C": "Modulus error in high points", "D": "High load"},
+        "answer": "C",
+        "competency": "CMA limitations"
+    },
+    {
+        "id": 58,
+        "category": "DSP",
+        "question": "2 samples/symbol timing loop. Max timing offset it can correct?",
+        "options": {"A": "0.25 Ts", "B": "0.5 Ts", "C": "1 Ts", "D": "2 Ts"},
+        "answer": "B",
+        "competency": "Timing recovery range"
+    },
+    {
+        "id": 59,
+        "category": "DSP",
+        "question": "Why use a 1024‑tap frequency‑domain equalizer?",
+        "options": {"A": "PMD", "B": "Phase noise", "C": "Large accumulated CD", "D": "RIN suppression"},
+        "answer": "C",
+        "competency": "Equalizer tap length"
+    },
+    {
+        "id": 60,
+        "category": "DSP",
+        "question": "64 GBd signal @ 2 samples-per-symbol ADC. Sampling rate?",
+        "options": {"A": "64 GSa/s", "B": "128 GSa/s", "C": "256 GSa/s", "D": "512 GSa/s"},
+        "answer": "B",
+        "competency": "ADC sampling calculation"
+    },
+    {
+        "id": 61,
+        "category": "DSP",
+        "question": "DSP block used to track nonlinear phase noise in coherent systems?",
+        "options": {"A": "Carrier Phase Estimation (CPE)", "B": "CMA", "C": "Matched filter", "D": "Timing recovery"},
+        "answer": "A",
+        "competency": "Phase tracking"
+    },
+    {
+        "id": 62,
+        "category": "DSP",
+        "question": "400G PCS transponder shows improved reach primarily due to:",
+        "options": {"A": "Higher baud rate", "B": "Constellation shaping gain", "C": "Reduced FEC", "D": "LO tolerance"},
+        "answer": "B",
+        "competency": "Probabilistic constellation shaping"
+    },
+    {
+        "id": 63,
+        "category": "DSP",
+        "question": "Main trade‑off of pilot‑aided phase estimation?",
+        "options": {"A": "OSNR increase", "B": "Reduced spectral efficiency", "C": "Lower PMD", "D": "Higher ADC"},
+        "answer": "B",
+        "competency": "Pilot symbol overhead"
+    },
+    {
+        "id": 64,
+        "category": "DSP",
+        "question": "16‑QAM: radial spreading but no angular spreading. Impairment?",
+        "options": {"A": "Phase noise", "B": "CD", "C": "Additive Amplitude Noise / RIN", "D": "PMD"},
+        "answer": "C",
+        "competency": "Constellation impairment diagnosis"
+    },
+    {
+        "id": 65,
+        "category": "DSP",
+        "question": "A decision‑directed phase estimator typically fails when:",
+        "options": {"A": "OSNR is high", "B": "PMD is low", "C": "Pre-FEC BER is too high", "D": "Baud rate is low"},
+        "answer": "C",
+        "competency": "Decision-directed processing"
+    },
+    {
+        "id": 66,
+        "category": "Hardware",
+        "question": "Hybrid phase error of 10° in a coherent receiver results in?",
+        "options": {"A": "PMD increase", "B": "IQ imbalance / Cross-talk", "C": "Linewidth", "D": "CD failure"},
+        "answer": "B",
+        "competency": "Coherent receiver calibration"
+    },
+    {
+        "id": 67,
+        "category": "Hardware",
+        "question": "1550‑nm DFB laser Relative Intensity Noise (RIN) usually:",
+        "options": {"A": "Decreases with bias current", "B": "Increases with bias", "C": "Independent", "D": "Zero"},
+        "answer": "A",
+        "competency": "Laser RIN characteristics"
+    },
+    {
+        "id": 68,
+        "category": "Hardware",
+        "question": "WSS 3‑dB BW of 40 GHz used for 45‑GBd signal results in?",
+        "options": {"A": "PMD", "B": "Filter‑induced ISI", "C": "Laser drift", "D": "RIN"},
+        "answer": "B",
+        "competency": "WSS bandwidth effects"
+    },
+    {
+        "id": 69,
+        "category": "Hardware",
+        "question": "Photodiode saturates at –3 dBm. If input is 0 dBm, what occurs?",
+        "options": {"A": "Higher responsivity", "B": "Nonlinear clipping/distortion", "C": "Dark current", "D": "SNR"},
+        "answer": "B",
+        "competency": "Photodiode saturation"
+    },
+    {
+        "id": 70,
+        "category": "Hardware",
+        "question": "Raman pump generating ASE power impacts the link by:",
+        "options": {"A": "Increasing OSNR", "B": "Lowering PMD", "C": "Increasing span NF", "D": "Reducing CD"},
+        "answer": "C",
+        "competency": "Raman ASE effects"
+    },
+    {
+        "id": 71,
+        "category": "Hardware",
+        "question": "40 dB Return Loss on a connector means:",
+        "options": {"A": "Significant reflection", "B": "Low back‑reflection", "C": "Connector damage", "D": "High PMD"},
+        "answer": "B",
+        "competency": "Return loss interpretation"
+    },
+    {
+        "id": 72,
+        "category": "Hardware",
+        "question": "Which band is a 1310‑nm laser natively associated with?",
+        "options": {"A": "C-band", "B": "L-band", "C": "O-band", "D": "S-band"},
+        "answer": "C",
+        "competency": "Optical bands"
+    },
+    {
+        "id": 73,
+        "category": "Hardware",
+        "question": "A 32‑GHz modulator driven at 32 GBd results in:",
+        "options": {"A": "PMD", "B": "Bandwidth‑limited ISI", "C": "Laser phase noise", "D": "RIN"},
+        "answer": "B",
+        "competency": "Modulator bandwidth matching"
+    },
+    {
+        "id": 74,
+        "category": "Architecture",
+        "question": "A 400G super‑channel uses 8×50‑GBd carriers with 62.5 GHz spacing. Total bandwidth?",
+        "options": {"A": "400 GHz", "B": "487.5 GHz", "C": "625 GHz", "D": "700 GHz"},
+        "answer": "B",
+        "competency": "Super-channel spectrum calculation"
+    },
+    {
+        "id": 75,
+        "category": "Architecture",
+        "question": "A 64‑GBd signal with 10% roll-off needs a minimum spectral slot of:",
+        "options": {"A": "64 GHz", "B": "70.4 GHz", "C": "80 GHz", "D": "90 GHz"},
+        "answer": "B",
+        "competency": "Spectral slot sizing"
+    },
+    {
+        "id": 76,
+        "category": "Architecture",
+        "question": "A ROADM introduces 5 dB loss per degree. A signal traverses 4 degrees. Total loss?",
+        "options": {"A": "10 dB", "B": "20 dB", "C": "25 dB", "D": "30 dB"},
+        "answer": "B",
+        "competency": "ROADM loss budget"
+    },
+    {
+        "id": 77,
+        "category": "Architecture",
+        "question": "Which impairment is the primary bottleneck in cascading 20+ ROADMs?",
+        "options": {"A": "PMD", "B": "Filter narrowing", "C": "Laser drift", "D": "RIN"},
+        "answer": "B",
+        "competency": "ROADM cascade limits"
+    },
+    {
+        "id": 78,
+        "category": "Architecture",
+        "question": "Which ROADM feature allows multiple same-wavelength signals into the same add/drop?",
+        "options": {"A": "Colorless", "B": "Directionless", "C": "Contentionless", "D": "Fixed-grid"},
+        "answer": "C",
+        "competency": "CDC ROADM features"
+    },
+    {
+        "id": 79,
+        "category": "Architecture",
+        "question": "Attempting to fit a 64‑GBd channel into a 50‑GHz fixed‑grid slot results in:",
+        "options": {"A": "Success", "B": "Severe ISI / Clipping", "C": "OSNR improvement", "D": "PMD increase"},
+        "answer": "B",
+        "competency": "Grid mismatch effects"
+    },
+    {
+        "id": 80,
+        "category": "SDN/NFV",
+        "question": "Which YANG model family is associated with 'OpenRoadm' for impairment modeling?",
+        "options": {"A": "OpenConfig", "B": "IETF WSON", "C": "IETF TE Topology", "D": "OpenROADM"},
+        "answer": "D",
+        "competency": "OpenROADM models"
+    },
+    {
+        "id": 81,
+        "category": "SDN/NFV",
+        "question": "A NETCONF <rpc-error> with 'operation-failed' usually means:",
+        "options": {"A": "Invalid XML", "B": "Schema mismatch", "C": "Device internal failure", "D": "Transport failure"},
+        "answer": "C",
+        "competency": "NETCONF error diagnosis"
+    },
+    {
+        "id": 82,
+        "category": "SDN/NFV",
+        "question": "Which interface is used for streaming gRPC-based telemetry?",
+        "options": {"A": "NETCONF", "B": "gNMI", "C": "TL1", "D": "SNMP"},
+        "answer": "B",
+        "competency": "gRPC telemetry"
+    },
+    {
+        "id": 83,
+        "category": "SDN/NFV",
+        "question": "PCEP is used by an SDN controller for:",
+        "options": {"A": "Alarm reporting", "B": "Topology discovery", "C": "Path computation", "D": "Power control"},
+        "answer": "C",
+        "competency": "PCEP protocol"
+    },
+    {
+        "id": 84,
+        "category": "SDN/NFV",
+        "question": "HTTP 415 error in a REST API call indicates:",
+        "options": {"A": "Unsupported media type", "B": "Unauthorized", "C": "Timeout", "D": "Not found"},
+        "answer": "A",
+        "competency": "HTTP error codes"
+    },
+    {
+        "id": 85,
+        "category": "SDN/NFV",
+        "question": "The SDN function responsible for preventing EDFA transients is:",
+        "options": {"A": "PCE", "B": "Telemetry agent", "C": "Dynamic Power Control", "D": "NBI orchestrator"},
+        "answer": "C",
+        "competency": "Dynamic control functions"
+    },
+    {
+        "id": 86,
+        "category": "SDN/NFV",
+        "question": "Which model enables multi‑vendor topology visualization in an SDN controller?",
+        "options": {"A": "OpenConfig", "B": "IETF TE Topology", "C": "OpenFlow", "D": "SNMP"},
+        "answer": "B",
+        "competency": "Topology models"
+    },
+    {
+        "id": 87,
+        "category": "SDN/NFV",
+        "question": "A controller receiving frequent 'RPC timeout' likely has:",
+        "options": {"A": "High latency / Overload", "B": "Incorrect YANG", "C": "TLS mismatch", "D": "NB overload"},
+        "answer": "A",
+        "competency": "Performance troubleshooting"
+    },
+    {
+        "id": 88,
+        "category": "SDN/NFV",
+        "question": "Which layer manages the lifecycle of Virtual Network Functions (VNFs)?",
+        "options": {"A": "EMS", "B": "NMS", "C": "NFVO", "D": "PCE"},
+        "answer": "C",
+        "competency": "NFV architecture"
+    },
+    {
+        "id": 89,
+        "category": "SDN/NFV",
+        "question": "The benefit of 'make-before-break' path computation is:",
+        "options": {"A": "Lower OSNR", "B": "Hitless traffic migration", "C": "Reduced latency", "D": "Lower pump power"},
+        "answer": "B",
+        "competency": "Path computation strategies"
+    }
+]

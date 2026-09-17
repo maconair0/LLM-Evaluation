@@ -1,0 +1,7 @@
+# Ignore everything in this working folder except the published files
+/*
+!/.gitignore
+!/README.md
+!/LLM_evaluation_script.py
+!/OpED.json
+!/LICENSE
